@@ -58,11 +58,11 @@ namespace LoginApp
             //    appId: "",
             //    appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "1020171856564-935kke6bd93vquqr9olrk9oipq0feokr.apps.googleusercontent.com",
+                ClientSecret = "qQl8AHSLABAUqdBWkPgpQGVp"
+            });
         }
     }
 }
